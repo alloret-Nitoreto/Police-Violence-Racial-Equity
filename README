@@ -1,7 +1,7 @@
 Para ejecutar el codigo se necesitara de un sistema operativo en base linux, PySpark, Java y Phyhton3.
 Estos los dataset y los script que los utilizan:
-  Police_Deaths_By_State.py y Police_Deaths_By_Dep.py utilizan police_deaths_538.csv
-  departamen_murder_count.py, causes_of_death.py, mostfatal_encounters_dot_org.csv
+  Police_Deaths_By_State.py, Police_Deaths_By_Dep.py y most_police_deaths_in_dept.py utilizan police_deaths_538.csv
+  departamen_murder_count.py, causes_of_death.py y city_murder_count.py mostfatal_encounters_dot_org.csv
 En la consola de comandos se debera ejecutar: 
   $ spark-submit Nombre_del_script.py Nombre_dataset.csv Nombre_Archivo_salida.csv
 
@@ -11,6 +11,6 @@ numero_total_muertes_por_etnia.py y porcentaje_etnias_asesinadas.py deben ejecut
   $ spark-submit Nombre_del_script.py
 Genera un outpunt.txt/ que se puede leer con: 
   $ more output.txt/*
-Estos 2 escript necesitan del csv deaths_arrests.csv
+Estos 2 escript necesitan del csv deaths_arrests.csv del repositorio git (keggle tiene el header erroneo)
 
 ------------------------------------------------------------------------IMPORTANTE---------------------------------------------------------------------------------------
