@@ -1,0 +1,13 @@
+Para ejecutar el codigo se necesitara de un sistema operativo en base linux, PySpark, Java y Phyhton3.
+En la consola de comandos se debera ejecutar: 
+  $ spark-submit Nombre_del_script.py Nombre_dataset.csv Nombre_Archivo_salida.csv
+
+------------------------------------------------------------------------IMPORTANTE---------------------------------------------------------------------------------------
+
+numero_total_muertes_por_etnia.py y porcentaje_etnias_asesinadas.py deben ejecutarse con: 
+  $ spark-submit Nombre_del_script.py
+Genera un outpunt.txt/ que se puede leer con: 
+  $ more output.txt/*
+Estos 2 escript necesitan del csv deaths_arrests.csv
+
+------------------------------------------------------------------------IMPORTANTE---------------------------------------------------------------------------------------
