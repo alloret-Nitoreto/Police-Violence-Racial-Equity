@@ -1,6 +1,6 @@
 Para ejecutar el codigo se necesitara de un sistema operativo en base linux, PySpark, Java y Phyhton3.
 Estos los dataset y los script que los utilizan:
-  Police_Deaths_By_State.py, Police_Deaths_By_Dep.py y most_police_deaths_in_dept.py utilizan police_deaths_538.csv
+  Police_Deaths_By_State.py, Police_Deaths_By_Dep.py y most_police_deaths_in_dept.py utilizan police_deaths_538.csv https://www.kaggle.com/jpmiller/police-violence-in-the-us
   departamen_murder_count.py, causes_of_death.py y city_murder_count.py mostfatal_encounters_dot_org.csv
 En la consola de comandos se debera ejecutar: 
   $ spark-submit Nombre_del_script.py Nombre_dataset.csv Nombre_Archivo_salida.csv
